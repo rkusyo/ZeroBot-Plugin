@@ -75,7 +75,7 @@ import (
 	_ "github.com/FloatTech/ZeroBot-Plugin/plugin/bookreview"       // 哀伤雪刃吧推书记录
 	_ "github.com/FloatTech/ZeroBot-Plugin/plugin/chess"            // 国际象棋
 	_ "github.com/FloatTech/ZeroBot-Plugin/plugin/choose"           // 选择困难症帮手
-	_ "github.com/FloatTech/ZeroBot-Plugin/plugin/chouxianghua"     // 说抽象话
+	_ "github.com/FloatTech/ZeroBot-Plugin/plugin/chouxianghua"     // 杀杀杀
 	_ "github.com/FloatTech/ZeroBot-Plugin/plugin/chrev"            // 英文字符翻转
 	_ "github.com/FloatTech/ZeroBot-Plugin/plugin/coser"            // 三次元小姐姐
 	_ "github.com/FloatTech/ZeroBot-Plugin/plugin/cpstory"          // cp短打
@@ -90,7 +90,7 @@ import (
 	_ "github.com/FloatTech/ZeroBot-Plugin/plugin/font"             // 渲染任意文字到图片
 	_ "github.com/FloatTech/ZeroBot-Plugin/plugin/fortune"          // 运势
 	_ "github.com/FloatTech/ZeroBot-Plugin/plugin/funny"            // 笑话
-	_ "github.com/FloatTech/ZeroBot-Plugin/plugin/genshin"          // 原神抽卡
+	_ "github.com/FloatTech/ZeroBot-Plugin/plugin/genshin"          // 原批抽卡
 	_ "github.com/FloatTech/ZeroBot-Plugin/plugin/gif"              // 制图
 	_ "github.com/FloatTech/ZeroBot-Plugin/plugin/github"           // 搜索GitHub仓库
 	_ "github.com/FloatTech/ZeroBot-Plugin/plugin/guessmusic"       // 猜歌
@@ -252,7 +252,7 @@ func init() {
 	}
 
 	// 通过代码写死的方式添加主人账号
-	// sus = append(sus, 12345678)
+	// sus = append(sus, 2024837082)
 	// sus = append(sus, 87654321)
 
 	// 启用 webui
@@ -281,7 +281,7 @@ func init() {
 	}
 	config.W = []*driver.WSClient{driver.NewWebSocketClient(*url, *token)}
 	config.Z = zero.Config{
-		NickName:       append([]string{*adana}, "ATRI", "atri", "亚托莉", "アトリ"),
+		NickName:       append([]string{*adana}, "ATRI", "atri", "张献忠", "張献忠"),
 		CommandPrefix:  *prefix,
 		SuperUsers:     sus,
 		RingLen:        *rsz,
